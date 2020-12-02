@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/Website%20Background%20copy.png) 
+  background: url(images/Website%20Background.PNG) 
 	center center fixed no-repeat;
 	background-size: cover; 
 }
@@ -125,7 +125,7 @@ nav a{
     }   
 
 a{
-    color:black;
+    color:maroon;
     text-decoration: none;
     font-weight: 400;
     }
