@@ -1,176 +1,71 @@
 /*CSS document*/
 
-html,
-body,
-div,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-}
-
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
 img {
 	width: 100%;
 	display: block;
 }
-
 body {
-	background-color: rgb(249, 249, 249);
-	/* Not totally white. */
-	color: rgb(51, 51, 51);
-	/* Not totally black. */
-	line-height: 140%;
-	/* A little extra leading. */
+	background-color: rgb(249,249,249); /* Not totally white. */
+	color: rgb(51,51,51);  /* Not totally black. */
+	line-height: 140%; 	/* A little extra leading. */
 	font-family: sans-serif;
 }
-
 h1 {
-	background-color: rgb(154, 153, 169);
-	color: rgb(249, 249, 249);
-	/* Same as body background. */
+	background-color: rgb(154,153,169);
+	color:rgb(249,249,249) ; /* Same as body background. */
 	font-size: 50;
-	padding: 1.2em 1em 0.1em;
-	/* You want three values. */
+	padding: 1.2em 1em 0.1em; /* You want three values. */
 	font-weight: 800;
 	text-transform: uppercase;
-	font-style: bold;
+        font-style: bold;
 }
-
 /* You’ll need to add a span element to your HTML. */
-h1 span {
+h1 span { 	
 	font-family: sans-serif;
-	font-weight: 100;
-	text-transform: lowercase;
+	font-weight:100;
+	font-style: italic;
+	text-transform:lowercase;
 }
-
 h2 {
-	background-color: rgb(154, 153, 169);
-	color: rgb(249, 249, 249);
-	font-size: 40;
+	background-color: rgb(154,153,169);
+	color:rgb(249,249,249) ; 
+	font-size:40;
 	padding: 1.2em;
-	font-family: serif;
-	font-weight: 400;
+	font-family: serif ; 
+	font-weight:400;
 }
-
 h3 {
-	margin: 0em 0.5em 0.3em;
-	/*Three values again. You got the idea.*/
-	padding: 0em 0.3em 0.1em;
+	margin: 0em 1em 0.3em; /*Three values again. You got the idea.*/
+	padding:0em 0.3em 0.1em; 
 	font-size: 26;
-	color: rgb(174, 52, 46);
+	color: rgb(174,52,46);
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	/*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	letter-spacing: 0.05em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: 1em 1em 1em
 }
-
 h4 {
-	margin: 0.1em 0.em 1em;
-	/*Three values again. You got the idea.*/
-	padding: 0.1em 0.3em 0.1em;
-	font-family: sans-serif;
+  margin: 0.1em 0.em 1em; /*Three values again. You got the idea.*/
+	padding: 0.1em 0.3em 0.1em; 
+    font-family: sans-serif;
 	font-weight: 600;
-	font-style: bold;
-
+    font-style: bold;
 }
-
 p.description {
-	font-family: sans-serif;
+    font-family: sans-serif;
 	font-style: italic;
-	padding: 0.1em 0.3em 0.1em;
+  padding: 0.1em 0.3em 0.1em; 
 }
-
 p.price {
-	font-family: sans-serif;
-	color: rgb(174, 52, 46);
-	font-style: bold;
-	padding: 0.1em 0.3em 0.1em;
+    font-family: sans-serif;
+	color: rgb(174,52,46);
+    font-style: bold;
+  padding: 0.1em 0.3em 0.1em; 
 }
-}
-
 ul {
 	margin: 2em 1em 1em;
 }
-
-li {
+li { 
 	margin: 2em 1em 1em;
 }
