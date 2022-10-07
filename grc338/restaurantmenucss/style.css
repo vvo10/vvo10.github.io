@@ -32,8 +32,8 @@ h2 {
 	background-color: rgb(154,153,169);
 	color:rgb(249,249,249) ; 
 	font-size: 40px;
-	padding: 1.2em 0.1em 0.1em;
-	margin: 0.1em 0.1em 0.1em
+	padding: 1.2em;
+	margin: 0.1em 1em 0.1em;
 	font-family: serif ; 
 	font-weight: 400;
 }
