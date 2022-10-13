@@ -26,9 +26,9 @@ h2 {
 	background-color: rgb(239,142,52);
 	color:rgb(250,223,194); 
 	font-size: 1.5rem;
-	padding: 1rem 1.5rem 1rem;
+	padding: 1rem 1.8rem 2rem;
 	font-family: sutro, serif; 
-	font-weight: 600;
+	font-weight: 400;
 }
 figcaption {
     background-color: rgb(249,249,249); /* Not totally white. */
@@ -42,9 +42,9 @@ h3 {
 	margin: 2em 2em 0.3em; /*Three values again. You got the idea.*/
 	padding:0em 0.3em 0.1em; 
 	font-family: sutro, serif;
-	font-size: 18;
+	font-size: 1.2rem;
 	color: rgb(239,142,52);
-	font-weight: 600;
+	font-weight: 700;
         font-style: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.05em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
