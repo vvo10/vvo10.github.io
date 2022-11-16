@@ -1,78 +1,77 @@
 /*CSS DOCUMENT*/
 
 img {
-	width: 100%;
+  width: 100%;
 }
 body {
-	background-color: rgb(#1e1e1e);
-	color: rgb(#fafafa);
-	line-height: 140%;
-	font-family: poppins, sans-serif;
+  background-color: rgb(#1e1e1e);
+  color: rgb(#fafafa);
+  line-height: 140%;
+  font-family: poppins, sans-serif;
 }
 h2 {
-	background-color: rgb(#1e1e1e);
-	color: rgb(224, 113, 132);
-	font-family: parity-sans, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 3rem;
-	padding: 0rem 2rem 2.2rem;
-	line-height: 3.5rem;
-	border-bottom: 6px solid rgb(253, 202, 157);
+  background-color: rgb(#1e1e1e);
+  color: rgb(224, 113, 132);
+  font-family: parity-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  padding: 0rem 2rem 2.2rem;
+  line-height: 3.5rem;
+  border-bottom: 6px solid rgb(253, 202, 157);
 }
 h3 {
-	color: rgb(175, 48, 52);
-	font-size: 1.75rem;
-	font-family: parity-sans, sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	padding: 1rem 2rem 0rem;
+  color: rgb(175, 48, 52);
+  font-size: 1.75rem;
+  font-family: parity-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 1rem 2rem 0rem;
 }
 h4 {
-	color: indigo;
-	font-size: 1.3rem;
-	font-family: parity-sans, sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	padding: 2rem 2rem 0rem;
-	line-height: 1rem;
+  color: indigo;
+  font-size: 1.3rem;
+  font-family: parity-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 2rem 2rem 0rem;
+  line-height: 1rem;
 }
 p {
-	font-size: 1rem;
-	padding: 0.1rem 2rem 1rem;
-	font-family: ellograph-cf, monospace;
-	font-weight: 400;
-	font-style: normal;
-	line-height: 1.2rem;
+  font-size: 1rem;
+  padding: 0.1rem 2rem 1rem;
+  font-family: ellograph-cf, monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2rem;
 }
 ul {
-	list-style: none;
-	padding: 0.1rem 2rem 1rem;
+  list-style: none;
+  padding: 0.1rem 2rem 1rem;
 }
 footer {
-	background-color: rgb(120, 210, 255) ;
-	color: rgb(249, 249, 249);
-	margin: 2em 0em 0em;
-	padding: 1em 1em 1em;
-	text-align: center;
+  background-color: rgb(120, 210, 255);
+  color: rgb(249, 249, 249);
+  margin: 2em 0em 0em;
+  padding: 1em 1em 1em;
+  text-align: center;
 }
 nav ul li a {
-	display: inline;
-	text-decoration: none;
-	color: rgb(120, 210, 255) ;
+  display: inline;
+  text-decoration: none;
+  color: rgb(120, 210, 255);
 }
 nav {
-	padding: 0em 1em 0em;
-	text-align: center;
-	font-size: 1.75rem;
-	font-family: parity-sans, sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	text-decoration: none;
-	border-bottom: 6px solid rgb(253, 202, 157);
-	line-height: 2.2rem;
+  padding: 0em 1em 0em;
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: parity-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  border-bottom: 6px solid rgb(253, 202, 157);
+  line-height: 2.2rem;
 }
 img {
-	padding: 0.2rem 0rem 1rem;
+  padding: 0.2rem 0rem 1rem;
 }
-
