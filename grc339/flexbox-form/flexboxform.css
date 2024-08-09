@@ -1,0 +1,90 @@
+/*CSS DOCUMENT*/
+
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	}
+	
+div.container {
+        max-width: 40em;
+        margin: auto;
+        padding: 1em;
+}
+
+/* I have *some* selectors with their declarations in the declaration block. You’ll need more selectors and declaration blocks. */
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: 4 0 28em; 
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+ul li {
+	/border-top: 3px solid blue;/
+}
+
+.personal-info ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+}
+.personal-info ul {
+	flex: 1 0 4em; 
+
+}
+.personal-info ul li label{
+	flex: 1 0 8em;
+
+}
+.order ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.order ul li {
+	flex: 1 0 15em;
+}
+.method ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.method ul li {
+	flex: 1 0 15em;}
+section {
+    background: #eee;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+section p {
+	margin-top: 0;
+	line-height: 0;
+	padding-bottom: 1.5em;
+}
+section h3 {
+	margin-top: 2em;
+	line-height: 0;
+}
+textarea {
+	box-sizing: border-box;
+	display: block;
+	display: 90%;
+	width: 45em; 
+	height: 8em;
+	background: #fcfcfc;
+	border: 1px solid #e8e8e8;
+	padding: 0.4em;
+	font-family: sans-serif;
+	color: #777;
+	}
+@media only screen and (min-width: 40em) {
+  div.container {
+	max-width: 40em;
+    margin: auto;
+  }
+}
