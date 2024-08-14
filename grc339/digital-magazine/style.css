@@ -1,0 +1,234 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+body {
+	font-family: sans-serif;
+    text-decoration: none;
+ }
+img {
+    width: 100%;
+    display: block;
+    margin-top: 1.5em;
+}
+h1 {
+    width: 10em;
+}
+a {
+    text-decoration: none;
+}
+div.container {
+    max-width: 40em;
+    margin: auto;
+    padding: 1em;
+}
+ul {
+	list-style-type: none;
+	padding-top: 1em;
+    font-weight: bold;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 115%;
+}
+nav a {
+    text-decoration: none;
+    color:rgb(79, 101, 141);
+}
+.mainstory h2 {
+    text-decoration: none;
+    font-size: 300%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+article p {
+    padding-top: 1em;
+}
+article h2 {
+    font-size: 300%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+    padding-top: 1em;
+}
+aside {
+    background-color: rgb(193, 181, 207);
+    padding-right: 1em;
+    padding-top: 0.5em;
+}
+aside h2 {
+    padding-left: 0.3em;
+    text-decoration: none;
+}
+aside p {
+    margin: auto;
+    padding: 0.5em;
+    text-decoration: none;
+}
+aside img {
+    margin: 0;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+}
+figcaption {
+    font-style: italic;
+    color: rgb(120, 120, 120);
+    padding-bottom: 1em;
+}
+.mainstory p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.secondary1 h2 {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.secondary1 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.secondary2 h2 {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.secondary2 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.secondary3 h2 {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.secondary3 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.secondary4 h2 {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.secondary4 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.secondary5 h2 {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.secondary5 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.tertiary1 h2 {
+    border-top: 1px solid;
+    padding-top: 0.4em;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.tertiary1 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.tertiary2 h2 {
+    border-top: 1px solid;
+    padding-top: 0.4em;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.tertiary2 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.tertiary3 h2 {
+    border-top: 1px solid;
+    padding-top: 0.4em;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.tertiary3 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.tertiary4 h2 {
+    border-top: 1px solid;
+    padding-top: 0.4em;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.tertiary4 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.tertiary5 h2 {
+    border-top: 1px solid;
+    padding-top: 0.4em;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.tertiary5 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+.tertiary6 h2 {
+    border-top: 1px solid;
+    padding-top: 0.4em;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(79, 101, 141);
+}
+.tertiary6 p {
+    color:rgb(63, 63, 64);
+    padding-top:0.5em;
+    padding-bottom: 1.5em;
+}
+footer {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgb(117, 141, 188);
+    color: rgb(244, 244, 244);
+}
