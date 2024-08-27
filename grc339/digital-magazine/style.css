@@ -12,8 +12,8 @@ img {
     margin-top: 0;
 }
 h1 {
-    width: 10em;
-    margin-top: 1em;
+    width: 15em;
+    margin-top: 0.5em;
 }
 a {
     text-decoration: none;
@@ -25,39 +25,49 @@ div.container, div.home-container {
 }
 ul {
 	list-style-type: none;
-	padding-top: 1em;
-    font-weight: bold;
+	padding-top: none;
     margin: auto;
     line-height: 1.5em;
-    font-size: 115%;
+    font-size: 140%;
     padding-bottom: 0.5em;
+    font-family: "puffin-arcade-liquid", sans-serif;
+font-weight: 800;
+font-style: normal;
 }
 nav a {
     text-decoration: none;
-    color:rgb(79, 101, 141);
+    color:rgb(237, 52, 94);
 }
 nav li {
     margin-right: 1.3em;
 }
 .mainstory h2 {
     text-decoration: none;
-    font-size: 300%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 450%;
+    color: rgb(235, 106, 51);
+    padding-top: 0.2em;
 }
 article p {
     padding-top: 1em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 1em;
 }
 article h2 {
-    font-size: 300%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
-    padding-top: 0.5em;
+    text-decoration: none;
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 450%;
+    color: rgb(235, 106, 51);
+    padding-top: 0.2em;
 }
 aside {
-    background-color: rgb(203,207,255);
+    background-color: rgb(240,50,46);
     padding-right: 1em;
     padding-top: 0.5em;
 }
@@ -67,7 +77,7 @@ aside h2 {
 }
 aside p {
     margin: auto;
-    padding: 0.5em;
+    padding: 1em;
     text-decoration: none;
 }
 aside img {
@@ -77,6 +87,8 @@ aside img {
     padding-right: 0.5em;
 }
 figcaption {
+    font-family: "mokoko", serif;
+    font-weight: 400;
     font-style: italic;
     color: rgb(120, 120, 120);
     padding-bottom: 1em;
@@ -84,161 +96,228 @@ figcaption {
 .mainstory p {
     color:rgb(63, 63, 64);
     padding-top:0.5em;
-    padding-bottom: 1.5em;
+    padding-bottom: 1.5em;  
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .secondary1 h2 {
     text-decoration: none;
-    font-size: 200%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 300%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .secondary1 p {
     color:rgb(63, 63, 64);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .secondary2 h2 {
     text-decoration: none;
-    font-size: 200%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 300%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .secondary2 p {
     color:rgb(63, 63, 64);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .secondary3 h2 {
     text-decoration: none;
-    font-size: 200%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 300%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .secondary3 p {
     color:rgb(63, 63, 64);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .secondary4 h2 {
     text-decoration: none;
-    font-size: 200%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 300%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .secondary4 p {
     color:rgb(63, 63, 64);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .secondary5 h2 {
     text-decoration: none;
-    font-size: 200%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 300%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .secondary5 p {
     color:rgb(63, 63, 64);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .tertiary1 h2 {
     border-top: 1px solid;
     padding-top: 0.4em;
     text-decoration: none;
-    font-size: 120%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    text-decoration: none;
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .tertiary1 p {
-    color:rgb(63, 63, 64);
+    color:rgb(236, 136, 53);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
 }
 .tertiary2 h2 {
     border-top: 1px solid;
     padding-top: 0.4em;
     text-decoration: none;
-    font-size: 120%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .tertiary2 p {
-    color:rgb(63, 63, 64);
+    color:rgb(236, 136, 53);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
 }
 .tertiary3 h2 {
     border-top: 1px solid;
     padding-top: 0.4em;
     text-decoration: none;
-    font-size: 120%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .tertiary3 p {
-    color:rgb(63, 63, 64);
+    color:rgb(236, 136, 53);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
 }
 .tertiary4 h2 {
     border-top: 1px solid;
     padding-top: 0.4em;
     text-decoration: none;
-    font-size: 120%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .tertiary4 p {
-    color:rgb(63, 63, 64);
+    color:rgb(236, 136, 53);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
 }
 .tertiary5 h2 {
     border-top: 1px solid;
     padding-top: 0.4em;
     text-decoration: none;
-    font-size: 120%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .tertiary5 p {
-    color:rgb(63, 63, 64);
+    color:rgb(236, 136, 53);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
 }
 .tertiary6 h2 {
     border-top: 1px solid;
     padding-top: 0.4em;
     text-decoration: none;
-    font-size: 120%;
-    font-weight: bold;
-    font-family: serif;
-    color: rgb(79, 101, 141);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(175, 244, 43);
+    padding-top: 0.2em;
 }
 .tertiary6 p {
-    color:rgb(63, 63, 64);
+    color:rgb(236, 136, 53);
     padding-top:0.5em;
     padding-bottom: 1.5em;
+    font-family: "mokoko", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
 }
 footer {
     padding-top: 0.5em;
-    padding-left: 0.5em;
+    padding-left: 0.7em;
     padding-bottom: 0.5em;
-    background-color: rgb(117, 141, 188);
+    background-color: rgb(235, 106, 51);;
     color: rgb(244, 244, 244);
     box-sizing: border-box;
+    font-family: "mokoko", serif;
+font-weight: 400;
+font-style: normal;
 }
-
 @media only screen and (min-width: 40em) {
     nav ul li {
         display: inline;
