@@ -20,7 +20,7 @@ margin-bottom: 0.7em;
 a {
     text-decoration: none;
 }
-div.container, div.home-container, div.photo-container {
+div.container, div.home-container {
     max-width: 40em;
     margin: auto;
     padding: 1em;
@@ -52,29 +52,48 @@ main h2 {
     color: rgb(235, 106, 51);
     padding-top: 0.2em;
 }
-nav.nav-section-1 {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-gap: 0.2em;
+nav.photo-gallery {
+    padding: 1.5em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 0.1em; 
 }
-div.photo-container {
-    background-color: #fafafa;
-    max-width: 60em;
+div.photo-gallery main h2 {
+    margin-bottom: 2em;
+    width: 100%;
+}	
+div.photo-gallery {
     margin: 0 auto;
     padding: 1.5em;
-
 }
-.photogallery main {
+div.photo-gallery main {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(70% + 1em);
+    padding-bottom: calc(60% + 1em);
+    padding-top: 1em;
 }
-.photogallery figure {
-    margin: auto;
-    width: calc(100%-3em);
+div.photo-gallery figcaption {
+    padding-top: 1em;
+    font-size: 1em;
+    padding-left: 0.5em;
+}
+div.photo-gallery figure {
+    margin: 0;
+    width: calc(100%-5em);
     position: absolute;
     opacity: 0;
     transition: ease-in-out 0.5s;
+    padding-top: 3em;
+    top: 4em;
+}
+nav.photo-gallery img {
+    width: 3.9em; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 0.5em; 
+    flex-shrink: 0;
 }
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
 input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
@@ -89,10 +108,8 @@ input:nth-of-type(10):checked ~ main figure:nth-of-type(10){
     opacity: 1;
 }
 
-div.photo-container main nav {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-gap: 0.2em;
+div.photo-gallery input {
+    display: none;
 }
 .personal-info h2 {
     text-decoration: none;
@@ -436,8 +453,24 @@ font-size: 0.8em;
         display: inline;
         margin-right: 1em;
     }
+    nav.photo-gallery {
+        display: grid; 
+        grid-template-columns: repeat(5, 1fr); 
+        gap: 0.5em;
+        padding-top: 3em;
+    }
+	nav.photo-gallery img {
+    	width: 6em; 
+    	height: auto; 
+    	object-fit: cover; 
+    	aspect-ratio: 16/9; 
+    	border-radius: 0.5em; 
+    	flex-shrink: 0;
+	}div.photo-gallery main h2 {
+        margin-bottom: 2em;
+        width: 100%;
+    }	
 }
-
 @media only screen and (min-width: 60em) {
     div.home-container {
         max-width: 80em;
@@ -446,15 +479,18 @@ font-size: 0.8em;
         grid-template-columns: 3fr 1fr;
         grid-gap: 1em;
     }
-    div.photo-container {
-        max-width: 60em;
-        margin-right: 1em;
-        margin-left: 1em;
-        padding: 0 1em;
-        justify-content: center;
- 
+	nav.photo-gallery {
+        grid-template-columns: repeat(10, 1fr); 
+        gap: 0.3em; 
     }
-   
+	nav.photo-gallery img {
+        width: 5.1em; 
+		height: auto;
+	}
+    div.photo-gallery main h2 {
+        margin-bottom: 2em;
+        width: 100%;
+    }	
     div.home-container aside {
         background: none;
         padding: 0;
