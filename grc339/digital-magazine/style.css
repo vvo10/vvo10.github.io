@@ -53,31 +53,39 @@ main h2 {
     padding-top: 0.2em;
 }
 nav.photo-gallery {
-    padding: 1.5em 2em;
+    padding: 2.5em 2em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
     gap: 0.1em; 
 }
-div.photo-gallery main h2 {
-    margin-bottom: 2em;
+div.photo-gallery h2 {
     width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4.5em;
+    color: rgb(235, 106, 51);
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
 }	
 div.photo-gallery {
     margin: 0 auto;
-    padding: 1.5em;
+    padding: 4em;
 }
 div.photo-gallery main {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(60% + 1em);
+    padding-bottom: calc(65% + 2em);
     padding-top: 1em;
 }
 div.photo-gallery figcaption {
     padding-top: 1em;
-    font-size: 1em;
-    padding-left: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
 }
 div.photo-gallery figure {
     margin: 0;
@@ -85,8 +93,8 @@ div.photo-gallery figure {
     position: absolute;
     opacity: 0;
     transition: ease-in-out 0.5s;
-    padding-top: 3em;
-    top: 4em;
+    padding: 6em;
+    padding-top: 1em;
 }
 nav.photo-gallery img {
     width: 3.9em; 
@@ -107,7 +115,6 @@ input:nth-of-type(9):checked ~ main figure:nth-of-type(9),
 input:nth-of-type(10):checked ~ main figure:nth-of-type(10){
     opacity: 1;
 }
-
 div.photo-gallery input {
     display: none;
 }
@@ -147,8 +154,11 @@ h3 {
     font-style: normal;
     font-size: 1.2em;
     color: rgb(240, 50, 46);
-    padding-top: 0.2em;
-    padding-left: 0.8em;
+    padding-top: 0.4em;
+    padding-left: 0.3em;
+}
+.mainstory h3 {
+    padding-left: 0.5em;
 }
 .mainstory h2 {
     text-decoration: none;
